@@ -1,0 +1,13 @@
+{
+	"name": "gql_viewed",
+	"version": "0.1",
+	"manifest_version" : 2,
+	"description": "gql_viewed",
+	"background" : {
+		"scripts" : ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "48.png"
+	},
+	"permissions": ["activeTab"]
+}
